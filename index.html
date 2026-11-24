@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="已公开的作品、工具与资料入口。">
+<title>事情与成果 · 公开版</title>
+<style>
+:root{color-scheme:light;--ink:#203936;--muted:#536761;--green:#156b58;--paper:#f5f6f0;--line:#d5ded5}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:22px/1.6 "Microsoft YaHei","PingFang SC",sans-serif}button,input,a{font:inherit}button{cursor:pointer}a{color:var(--green);text-underline-offset:4px}button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid #af670c;outline-offset:4px}.skip{position:absolute;left:15px;top:-70px;background:white;padding:7px 12px;z-index:2}.skip:focus{top:12px}.wrap{max-width:1280px;margin:auto;padding:42px 34px 80px}.eyebrow{font-size:20px;font-weight:700;letter-spacing:.08em;color:var(--green);margin:0 0 10px}h1{font-size:46px;line-height:1.3;margin:0 0 15px}.intro{color:var(--muted);font-size:25px;margin:0 0 27px;max-width:850px}.topline{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:15px 0;margin:27px 0 32px;color:var(--muted);font-size:21px}.topline strong{color:var(--ink);font-size:28px;margin-right:6px}.search-label{display:block;font-size:22px;margin-bottom:10px}.search-row{display:flex;gap:10px}.search-row input{min-width:0;flex:1;border:1px solid #9eb5ab;background:white;border-radius:10px;padding:13px 17px;color:var(--ink);font-size:24px}.reset{border:1px solid var(--line);background:white;border-radius:10px;padding:10px 19px;color:var(--ink)}.categories{display:flex;flex-wrap:wrap;gap:10px;margin:24px 0 20px}.category{border:1px solid var(--line);background:white;border-radius:10px;padding:8px 16px;color:var(--ink)}.category[aria-pressed=true]{background:var(--green);border-color:var(--green);color:white}.result-count{color:var(--muted);margin:0 0 16px;font-size:20px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.card{background:white;border:1px solid var(--line);border-radius:15px;padding:24px 25px;min-width:0}.category-label{display:inline-block;color:var(--green);font-size:18px;font-weight:700;margin-bottom:9px}.card h2{font-size:27px;line-height:1.4;margin:0 0 10px;overflow-wrap:anywhere}.summary{color:var(--muted);font-size:21px;margin:0 0 19px}.links{display:flex;flex-wrap:wrap;gap:9px}.links a{display:inline-flex;align-items:center;min-height:44px;padding:8px 14px;border-radius:8px;border:1px solid #a5c4b4;background:#edf5ee;font-size:20px;font-weight:600;text-decoration:none;overflow-wrap:anywhere}.links a:hover{background:#deebdf}.empty{grid-column:1/-1;background:white;border:1px dashed #9eb5ab;border-radius:12px;padding:28px}.empty h2{font-size:26px;margin:0 0 7px}.empty p{margin:0;color:var(--muted)}footer{border-top:1px solid var(--line);margin-top:38px;padding-top:18px;color:var(--muted);font-size:19px}footer p{margin:6px 0}@media(max-width:760px){.wrap{padding:25px 18px 55px}h1{font-size:36px}.intro{font-size:22px}.grid{grid-template-columns:1fr}.card{padding:20px}.categories{gap:8px}.category{font-size:19px;padding:7px 12px}.search-row input{font-size:21px}.reset{font-size:19px;padding:8px 12px}}@media(max-width:390px){.wrap{padding-left:14px;padding-right:14px}.search-row{gap:7px}.search-row input{padding:10px 11px}.card h2{font-size:25px}.summary{font-size:20px}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">跳到内容</a>
+<main id="main" class="wrap">
+<header>
+<p class="eyebrow">公开作品与工具目录</p>
+<h1>事情与成果 · 公开版</h1>
+<p class="intro" id="intro"></p>
+<div class="topline" id="stats"></div>
+<label class="search-label" for="search">搜索作品、工具或资料</label>
+<div class="search-row"><input id="search" type="search" placeholder="输入名称或关键词" autocomplete="off"><button id="reset" class="reset" type="button">重置</button></div>
+<nav id="categories" class="categories" aria-label="按领域筛选"></nav>
+</header>
+<p id="result-count" class="result-count" role="status" aria-live="polite"></p>
+<section id="results" class="grid" aria-label="公开成果列表"></section>
+<footer><p>这里仅展示已公开的在线入口。完整工作记录保存在本机目录。</p><p id="updated"></p></footer>
+</main>
+<noscript><p>此目录需要启用 JavaScript。</p></noscript>
+<script id="public-data" type="application/json">{"intro":"已公开的作品、工具与资料入口。完整工作记录保存在本机目录中。","generated":"2026-11-24 12:40","items":[{"title":"金泰 AI 影视艺术全栈智算平台","category":"平台与工作台","summary":"面向河传师生的 AI 影视创演平台。","links":[{"label":"打开培养平台","url":"https://aikingtai-ctrl.github.io/jintai-hbcm-ai-platform/"}],"order":0},{"title":"金泰算力中枢 NEXUS","category":"平台与工作台","summary":"算力中枢可视化演示的公开入口。","links":[{"label":"打开 NEXUS 大屏","url":"https://aikingtai-ctrl.github.io/jintai-compute-nexus/"}],"order":1},{"title":"影视作品展示站","category":"影视与文化","summary":"按作品浏览镜头、生成过程与成片。","links":[{"label":"浏览影视作品","url":"https://aikingtai-ctrl.github.io/jintai-film-showcase/"}],"order":2},{"title":"Story2Board 分镜工作台","category":"平台与工作台","summary":"故事到分镜的在线工作台入口。","links":[{"label":"打开分镜工作台","url":"https://aikingtai-ctrl.github.io/jintai-story2board/"}],"order":3},{"title":"文化视听资源","category":"影视与文化","summary":"中华文化、纪录片、声音与历史图像的公开浏览入口。","links":[{"label":"中华文明影像库","url":"https://aikingtai-ctrl.github.io/zhonghua-civilization-atlas/"},{"label":"纪录片课堂","url":"https://aikingtai-ctrl.github.io/documentary-classroom-library/"},{"label":"声音素材库","url":"https://aikingtai-ctrl.github.io/shengcang-sound-library/#sound-library"},{"label":"国内访问入口","url":"https://aikingtai-ctrl.github.io/jintai-domestic-portal/"}],"order":4},{"title":"中国历史文化图库","category":"影视与文化","summary":"历史人物、场景与影视参考图像的公开检索入口。","links":[{"label":"打开历史文化图库","url":"https://aikingtai-ctrl.github.io/jintai-history-image-library/"}],"order":5},{"title":"金泰技能手册与索引","category":"知识与设计","summary":"技能检索手册与全库明细的公开入口。","links":[{"label":"技能手册","url":"https://aikingtai-ctrl.github.io/jintai-skills-handbook/"},{"label":"技能总览","url":"https://aikingtai-ctrl.github.io/jintai-all-skills-atlas/"}],"order":6},{"title":"奥斯卡摄影知识图谱","category":"影视与文化","summary":"摄影语言与镜头知识的公开研究入口。","links":[{"label":"打开摄影知识图谱","url":"https://aikingtai-ctrl.github.io/hechuan-oscar-cine-graph/"}],"order":7},{"title":"金泰全局秒搜驾驶舱","category":"平台与工作台","summary":"公开快照检索与入口导航。","links":[{"label":"打开全局驾驶舱","url":"https://aikingtai-ctrl.github.io/jintai-global-cockpit/"}],"order":8},{"title":"会话总目录","category":"知识与设计","summary":"已发布的会话索引入口。","links":[{"label":"打开会话总目录","url":"https://aikingtai-ctrl.github.io/jintai-session-catalog/"}],"order":9},{"title":"品牌视觉锤与商标矩阵交互选型台","category":"知识与设计","summary":"品牌方向与视觉创意的公开工作台入口。","links":[{"label":"打开品牌创意工作台","url":"https://aikingtai-ctrl.github.io/brand-matrix-workbench/"}],"order":10}]}</script>
+<script>
+'use strict';
+const data=JSON.parse(document.getElementById('public-data').textContent);
+const state={category:'全部',query:''};
+const $=id=>document.getElementById(id);
+function el(tag,cls,value){const node=document.createElement(tag);if(cls)node.className=cls;if(value!==undefined)node.textContent=value;return node}
+function containsAll(value,words){const text=String(value||'').toLocaleLowerCase();return words.every(word=>text.includes(word))}
+function rank(item,words,phrase){const title=item.title.toLocaleLowerCase();if(title===phrase)return 0;if(title.startsWith(phrase))return 1;if(containsAll(title,words))return 2;if(containsAll(item.summary,words))return 3;return 4}
+function render(){
+  const words=state.query.toLocaleLowerCase().trim().split(/\s+/).filter(Boolean);
+  const selected=data.items.filter(item=>(state.category==='全部'||item.category===state.category)&&containsAll([item.title,item.summary,...item.links.map(link=>link.label)].join(' '),words));
+  if(words.length)selected.sort((a,b)=>rank(a,words,words.join(' '))-rank(b,words,words.join(' '))||a.order-b.order);
+  $('result-count').textContent='显示 '+selected.length+' 项 / 共 '+data.items.length+' 项';
+  document.querySelectorAll('.category').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.category===state.category)));
+  const cards=selected.map(item=>{
+    const card=el('article','card');
+    card.append(el('span','category-label',item.category),el('h2','',item.title),el('p','summary',item.summary));
+    const links=el('div','links');
+    item.links.forEach(asset=>{const a=el('a','',asset.label);a.href=asset.url;a.target='_blank';a.rel='noopener noreferrer';links.append(a)});
+    card.append(links);return card;
+  });
+  if(!cards.length){const empty=el('div','empty');empty.append(el('h2','','没有找到匹配成果'),el('p','','试试更短的关键词，或点击“重置”。'));cards.push(empty)}
+  $('results').replaceChildren(...cards);
+}
+const groups=['全部',...new Set(data.items.map(item=>item.category))];
+groups.forEach(category=>{const button=el('button','category',category);button.type='button';button.dataset.category=category;button.setAttribute('aria-pressed',String(category===state.category));button.onclick=()=>{state.category=category;render()};$('categories').append(button)});
+$('intro').textContent=data.intro;
+const count=el('strong','',String(data.items.length));$('stats').append(count,document.createTextNode('个公开事项 · '+data.items.reduce((sum,item)=>sum+item.links.length,0)+' 个在线成果入口'));
+$('updated').textContent='目录生成：'+data.generated+'（北京时间）';
+$('search').oninput=event=>{state.query=event.target.value;render()};
+$('reset').onclick=()=>{state.query='';state.category='全部';$('search').value='';render();$('search').focus()};
+render();
+</script>
+</body>
+</html>
